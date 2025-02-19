@@ -1,0 +1,6 @@
+# SSH configuration to use the private key ~/.ssh/school
+Host myserver
+    HostName 6347-web-01
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
