@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Using ssh to connect to server
+SERVER_ADDRESS="54.164.133.55"
+
+ssh -i ~/.ssh/school ubuntu@"$SERVER_ADDRESS"
